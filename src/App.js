@@ -1,6 +1,6 @@
 function App() {
   return (
-    <section>
+    <section className="container">
       <h1>Hello World</h1>
     </section>
   );
