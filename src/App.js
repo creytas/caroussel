@@ -14,6 +14,7 @@ import image13 from "./img/image_22.png";
 import image14 from "./img/image_23.png";
 import image15 from "./img/image_24.png";
 import image16 from "./img/image_25.png";
+import Carousel from "./components/carousel/Carousel";
 
 function App() {
   const slides = [
@@ -143,18 +144,7 @@ function App() {
   ];
   return (
     <section className="container">
-      <div className="carousel">
-        <div className="carousel-inner">
-          {slides.map((slide, index) => (
-            <div className="carousel-item">
-              <div></div>
-              <div>
-                <img src={slide.picture} />
-              </div>
-            </div>
-          ))}
-        </div>
-      </div>
+      <Carousel slides={slides} />
     </section>
   );
 }
