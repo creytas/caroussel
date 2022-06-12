@@ -1,28 +1,40 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import CarouselItem from "./CarouselItem";
 import CarouselControls from "./CarouselControls";
 import "./Carousel.css";
 
 const Carousel = ({ slides }) => {
   const [currentSlide, setCurrentSlide] = useState(0);
+  const slideInterval = useRef();
 
   const previousSlide = () => {
+    startSlideTimer();
     const index = currentSlide > 0 ? currentSlide - 1 : slides.length - 1;
     setCurrentSlide(index);
   };
   const nextSlide = () => {
+    startSlideTimer();
     const index = currentSlide < slides.length - 1 ? currentSlide + 1 : 0;
     setCurrentSlide(index);
   };
-
-  useEffect(() => {
-    const slideInterval = setInterval(() => {
-      console.log("currentSlide", currentSlide);
+  const startSlideTimer = () => {
+    stopSlideTimer();
+    slideInterval.current = setInterval(() => {
       setCurrentSlide((currentSlide) =>
         currentSlide < slides.length - 1 ? currentSlide + 1 : 0
       );
     }, 3000);
-    return () => clearInterval(slideInterval);
+  };
+  const stopSlideTimer = () => {
+    if (slideInterval.current) {
+      clearInterval(slideInterval.current);
+    }
+  };
+
+  useEffect(() => {
+    startSlideTimer();
+
+    return () => stopSlideTimer();
   }, []);
 
   return (
@@ -37,6 +49,8 @@ const Carousel = ({ slides }) => {
             title={slide.title}
             description={slide.description}
             key={index}
+            startSlide={startSlideTimer}
+            stopSlide={stopSlideTimer}
           />
         ))}
       </div>
