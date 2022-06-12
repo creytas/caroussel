@@ -3,16 +3,34 @@
     max-width: 100%;
     margin: 0 auto;
     overflow: hidden;
+    position: relative;
   }
   .carousel-inner{
     border: 2px solid navy;
     white-space: nowrap;
-    transition: ease 1s;
+    transition: ease 1.5s;
   }
   .carousel-item{
     border: 0px solid red;
     width: 100%;
     display: inline-block;
+  }
+  .carousel-control{
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    display: inline-block;
+    position: absolute;
+    top:calc(50% - 25px);
+    width: 70px;
+    height: 65px;
+    cursor: pointer;
+    color: #f3f3f3;
+  }
+  .left{
+    left: 0;
+  }
+  .right{
+    right: 0;
   }
   .article{
     border: 3px solid green;

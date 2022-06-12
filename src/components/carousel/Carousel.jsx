@@ -1,9 +1,20 @@
-import { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import CarouselItem from "./CarouselItem";
+import CarouselControls from "./CarouselControls";
 import "./Carousel.css";
 
 const Carousel = ({ slides }) => {
   const [currentSlide, setCurrentSlide] = useState(0);
+
+  const previousSlide = () => {
+    const index = currentSlide > 0 ? currentSlide - 1 : slides.length - 1;
+    setCurrentSlide(index);
+  };
+  const nextSlide = () => {
+    const index = currentSlide < slides.length - 1 ? currentSlide + 1 : 0;
+    setCurrentSlide(index);
+  };
+
   useEffect(() => {
     const slideInterval = setInterval(() => {
       console.log("currentSlide", currentSlide);
@@ -29,6 +40,7 @@ const Carousel = ({ slides }) => {
           />
         ))}
       </div>
+      <CarouselControls previous={previousSlide} next={nextSlide} />
     </div>
   );
 };
