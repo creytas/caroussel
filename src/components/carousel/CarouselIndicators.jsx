@@ -6,9 +6,9 @@ const CarouselIndicators = ({ slides, currentIndex, switchIndex }) => {
       {slides.map((_, index) => (
         <button
           key={index}
-          onClick={()=>switchIndex(index)}
+          onClick={() => switchIndex(index)}
           className={`carousel-indicator-item ${
-            currentIndex == index ? "active" : ""
+            currentIndex === index ? "active" : ""
           }`}
         ></button>
       ))}

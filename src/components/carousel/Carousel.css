@@ -6,7 +6,7 @@
     position: relative;
   }
   .carousel-inner{
-    border: 2px solid navy;
+    border: 0px solid navy;
     white-space: nowrap;
     transition: ease 1.5s;
   }
@@ -43,6 +43,11 @@
     margin: 0.2rem;
     cursor: pointer;
   }
+  .carousel-picture{
+      object-fit: cover;
+      height: 579px;
+      border: 0px solid navy;
+  }
   .active{
     opacity: 1;
   }
@@ -53,12 +58,13 @@
     right: 0;
   }
   .article{
-    border: 3px solid green;
+    border: 0px solid black;
     width: 100%;
+    height: 100%;
     display: flex;
     align-items: center;
   }
   .article div{
-    border: 0px solid green;
     width: 50%;
+    word-wrap: break-word;
   }

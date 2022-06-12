@@ -65,7 +65,7 @@ function App() {
     },
     {
       picture: image7,
-      title: "Sowing the earth is also feeding the future",
+      title: "A smile is often the most important thing. You get paid with a smile. You are rewarded with a smile",
       description:
         "Pariatur qui sit. Quia aut quasi. Aut earum quasi. Similique saepe ullam saepe dicta voluptatum temporibus alias. Sed dolorum aliquid quia distinctio fuga praesentium qui. Maiores culpa labore odio voluptas vero nostrum...",
       link: "",
@@ -73,7 +73,7 @@ function App() {
     {
       picture: image8,
       title:
-        "A smile is often the most important thing. You get paid with a smile. You are rewarded with a smile",
+        "Sowing the earth is also feeding the future",
       description:
         "Pariatur qui sit. Quia aut quasi. Aut earum quasi. Similique saepe ullam saepe dicta voluptatum temporibus alias. Sed dolorum aliquid quia distinctio fuga praesentium qui. Maiores culpa labore odio voluptas vero nostrum...",
       link: "",

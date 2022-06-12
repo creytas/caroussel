@@ -14,15 +14,19 @@ const CarouselItem = ({
       onMouseEnter={stopSlide}
       onMouseOut={startSlide}
     >
-      <article className="article">
+      <div className="article">
         <div>
           <h1>{title}</h1>
           <p>{description}</p>
         </div>
-        <div>
-          <img src={picture} alt={title} />
+        <div className="carousel-picture">
+          <img
+            src={picture}
+            alt={title}
+            style={{ width: "680px", height: "100%" }}
+          />
         </div>
-      </article>
+      </div>
     </div>
   );
 };
