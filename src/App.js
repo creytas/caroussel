@@ -145,7 +145,7 @@ function App() {
   ];
   return (
     <section className="container">
-      <Carousel slides={slides} />
+      <Carousel slides={slides} controls indicators width="100%" />
     </section>
   );
 }
