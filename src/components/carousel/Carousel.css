@@ -26,6 +26,26 @@
     cursor: pointer;
     color: #f3f3f3;
   }
+  .carousel-indicators{
+    position: absolute;
+    transform: translateX(-50%);
+    z-index: 2;
+    bottom: 1.5rem;
+    left: 50%;
+  }
+  .carousel-indicator-item{
+    width: 15px;
+    height: 15px;
+    border: none;
+    border-radius: 50%;
+    background: rgb(61, 61, 61);
+    opacity: 0.5;
+    margin: 0.2rem;
+    cursor: pointer;
+  }
+  .active{
+    opacity: 1;
+  }
   .left{
     left: 0;
   }

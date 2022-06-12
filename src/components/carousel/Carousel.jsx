@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import CarouselItem from "./CarouselItem";
 import CarouselControls from "./CarouselControls";
+import CarouselIndicators from "./CarouselIndicators";
 import "./Carousel.css";
 
 const Carousel = ({ slides }) => {
@@ -17,6 +18,11 @@ const Carousel = ({ slides }) => {
     const index = currentSlide < slides.length - 1 ? currentSlide + 1 : 0;
     setCurrentSlide(index);
   };
+  const switchIndex = (index) => {
+    startSlideTimer();
+    setCurrentSlide(index);
+  };
+
   const startSlideTimer = () => {
     stopSlideTimer();
     slideInterval.current = setInterval(() => {
@@ -54,6 +60,7 @@ const Carousel = ({ slides }) => {
           />
         ))}
       </div>
+      <CarouselIndicators currentIndex={currentSlide} slides={slides} switchIndex={switchIndex} />
       <CarouselControls previous={previousSlide} next={nextSlide} />
     </div>
   );
