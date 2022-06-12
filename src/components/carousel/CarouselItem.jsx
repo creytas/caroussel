@@ -23,7 +23,7 @@ const CarouselItem = ({
           <img
             src={picture}
             alt={title}
-            style={{ width: "680px", height: "100%" }}
+            style={{ width: "685px", height: "100%" }}
           />
         </div>
       </div>

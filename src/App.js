@@ -28,8 +28,7 @@ function App() {
     },
     {
       picture: image2,
-      title:
-        "A smile is often the most important thing. You get paid with a smile. You are rewarded with a smile",
+      title: "Every child we care about is a man we win",
       description:
         "Pariatur qui sit. Quia aut quasi. Aut earum quasi. Similique saepe ullam saepe dicta voluptatum temporibus alias. Sed dolorum aliquid quia distinctio fuga praesentium qui. Maiores culpa labore odio voluptas vero nostrum...",
       link: "",
@@ -65,7 +64,8 @@ function App() {
     },
     {
       picture: image7,
-      title: "A smile is often the most important thing. You get paid with a smile. You are rewarded with a smile",
+      title:
+        "A smile is often the most important thing. You get paid with a smile. You are rewarded with a smile",
       description:
         "Pariatur qui sit. Quia aut quasi. Aut earum quasi. Similique saepe ullam saepe dicta voluptatum temporibus alias. Sed dolorum aliquid quia distinctio fuga praesentium qui. Maiores culpa labore odio voluptas vero nostrum...",
       link: "",
@@ -73,31 +73,21 @@ function App() {
     {
       picture: image8,
       title:
-        "Sowing the earth is also feeding the future",
-      description:
-        "Pariatur qui sit. Quia aut quasi. Aut earum quasi. Similique saepe ullam saepe dicta voluptatum temporibus alias. Sed dolorum aliquid quia distinctio fuga praesentium qui. Maiores culpa labore odio voluptas vero nostrum...",
-      link: "",
-    },
-    {
-      picture: image9,
-      title:
-        "L'élevage est une technique purement entrepreneuriale. Entreprendre : c'est savoir élever.",
+        "Agriculture: a neglected sector but one that could be enriched if properly addressed",
       description:
         "Pariatur qui sit. Quia aut quasi. Aut earum quasi. Similique saepe ullam saepe dicta voluptatum temporibus alias. Sed dolorum aliquid quia distinctio fuga praesentium qui. Maiores culpa labore odio voluptas vero nostrum...",
       link: "",
     },
     {
       picture: image10,
-      title:
-        "L'élevage est une technique purement entrepreneuriale. Entreprendre : c'est savoir élever.",
+      title: "Merry Christmas and Happy New Year wishes from Kesho Congo !!!",
       description:
         "Pariatur qui sit. Quia aut quasi. Aut earum quasi. Similique saepe ullam saepe dicta voluptatum temporibus alias. Sed dolorum aliquid quia distinctio fuga praesentium qui. Maiores culpa labore odio voluptas vero nostrum...",
       link: "",
     },
     {
       picture: image11,
-      title:
-        "L'élevage est une technique purement entrepreneuriale. Entreprendre : c'est savoir élever.",
+      title: "By taking the child by the hand, we take the mother by the heart",
       description:
         "Pariatur qui sit. Quia aut quasi. Aut earum quasi. Similique saepe ullam saepe dicta voluptatum temporibus alias. Sed dolorum aliquid quia distinctio fuga praesentium qui. Maiores culpa labore odio voluptas vero nostrum...",
       link: "",
@@ -105,15 +95,7 @@ function App() {
     {
       picture: image12,
       title:
-        "L'élevage est une technique purement entrepreneuriale. Entreprendre : c'est savoir élever.",
-      description:
-        "Pariatur qui sit. Quia aut quasi. Aut earum quasi. Similique saepe ullam saepe dicta voluptatum temporibus alias. Sed dolorum aliquid quia distinctio fuga praesentium qui. Maiores culpa labore odio voluptas vero nostrum...",
-      link: "",
-    },
-    {
-      picture: image13,
-      title:
-        "L'élevage est une technique purement entrepreneuriale. Entreprendre : c'est savoir élever.",
+        "Education is not a preparation for life, education is life itself",
       description:
         "Pariatur qui sit. Quia aut quasi. Aut earum quasi. Similique saepe ullam saepe dicta voluptatum temporibus alias. Sed dolorum aliquid quia distinctio fuga praesentium qui. Maiores culpa labore odio voluptas vero nostrum...",
       link: "",
@@ -121,15 +103,7 @@ function App() {
     {
       picture: image14,
       title:
-        "L'élevage est une technique purement entrepreneuriale. Entreprendre : c'est savoir élever.",
-      description:
-        "Pariatur qui sit. Quia aut quasi. Aut earum quasi. Similique saepe ullam saepe dicta voluptatum temporibus alias. Sed dolorum aliquid quia distinctio fuga praesentium qui. Maiores culpa labore odio voluptas vero nostrum...",
-      link: "",
-    },
-    {
-      picture: image15,
-      title:
-        "L'élevage est une technique purement entrepreneuriale. Entreprendre : c'est savoir élever.",
+        "Expanding women's freedoms, education and opportunities is key to inclusive economic growth",
       description:
         "Pariatur qui sit. Quia aut quasi. Aut earum quasi. Similique saepe ullam saepe dicta voluptatum temporibus alias. Sed dolorum aliquid quia distinctio fuga praesentium qui. Maiores culpa labore odio voluptas vero nostrum...",
       link: "",
@@ -137,7 +111,7 @@ function App() {
     {
       picture: image16,
       title:
-        "L'élevage est une technique purement entrepreneuriale. Entreprendre : c'est savoir élever.",
+        "Coming together is a start, staying together is progress, working together is success",
       description:
         "Pariatur qui sit. Quia aut quasi. Aut earum quasi. Similique saepe ullam saepe dicta voluptatum temporibus alias. Sed dolorum aliquid quia distinctio fuga praesentium qui. Maiores culpa labore odio voluptas vero nostrum...",
       link: "",
